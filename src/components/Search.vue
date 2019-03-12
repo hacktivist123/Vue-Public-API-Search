@@ -4,7 +4,7 @@
     <input v-model="term" type="search" id="center" />
     <button @click="search" id="search">Search</button>
     <h3>
-      Just Search for any Popular Product API with either its Intials or
+      Just Search for any Popular Product API with either its intials or
       fullname e.g Youtube or Y
     </h3>
     <div v-if="results">
