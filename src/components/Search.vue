@@ -50,7 +50,7 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-radius: 50px;
+
   padding-left: 0.1rem;
   color: red;
 }
