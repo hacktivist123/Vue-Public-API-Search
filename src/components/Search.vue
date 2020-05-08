@@ -29,7 +29,6 @@ export default {
   methods: {
     search() {
       if (this.term.trim() === "") return;
-      console.log("search for " + this.term);
       fetch(
         `https://api.publicapis.org/entries?title=${encodeURIComponent(
           this.term
@@ -37,7 +36,6 @@ export default {
       )
         .then(res => res.json())
         .then(res => {
-          console.log("results", res);
           this.results = res.entries;
         });
     }
